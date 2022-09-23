@@ -23,7 +23,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* Replaced .header div to .header nav to send commands properly */
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +33,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 /* Replaced div with nav to connect properly */
+
 .header nav ul {
     list-style-type: none;
 }
+
 /* Replaced div with nav to finish the nav bar properly */
+
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -54,7 +60,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./Images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -85,18 +91,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* Condensed any elements with repeating styles into one element */
+
 .benefit-brand, .benefit-lead, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /* Condensed any elements with repeating styles into one element */
+
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Condensed any elements with repeating styles into one element */
+
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -104,6 +115,7 @@ p {
 }
 
 /* Condensed any elements with repeating styles into one element */
+
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,17 +126,20 @@ p {
 }
 
 /* Condensed any elements with repeating styles into one element */
+
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
 /* Condensed any elements with repeating styles into one element */
+
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Condensed any elements with repeating styles into one element */
+
 .footer {
     padding: 30px;
     clear: both;
